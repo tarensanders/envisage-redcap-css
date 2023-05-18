@@ -106,7 +106,7 @@ td.header.toolbar {
 }
 
 /* BODY FONT */
-body * {
+html body * {
   font-family: "articulat-cf", sans-serif !important;
   color: var(--primary-brand-color);
 }

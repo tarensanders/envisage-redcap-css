@@ -52,6 +52,13 @@ body {
   background-color: var(--secondary-blue-color);
 }
 
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
 .labelrc {
   background-color: var(--secondary-blue-color);
   /*font-weight: unset;*/
@@ -93,6 +100,11 @@ td.header.toolbar {
 
 #surveyinstructions-reveal {
   display: none;
+}
+
+.note {
+  padding: 0 0 0;
+  color: var(--primary-brand-color);
 }
 
 /* SURVEY TITLE */
@@ -200,4 +212,15 @@ div.enhancedchoice label.selectedchkbox {
 button:focus,
 button:hover {
   outline: none;
+}
+
+select.x-form-text {
+  min-width: 85%;
+  max-width: 100%;
+  border: none;
+}
+
+.x-form-text {
+  min-width: 85%;
+  border: none;
 }

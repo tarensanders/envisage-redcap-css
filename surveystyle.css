@@ -1,0 +1,175 @@
+/* ADD FONTS */
+
+@import url("https://p.typekit.net/p.css?s=1&k=zoq0mkl&ht=tk&f=49649.49652&a=26817712&app=typekit&e=css");
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url("https://use.typekit.net/af/c2fe50/00000000000000007735faea/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/c2fe50/00000000000000007735faea/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/c2fe50/00000000000000007735faea/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "articulat-cf";
+  src: url("https://use.typekit.net/af/a214a0/00000000000000007735faed/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff2"), url("https://use.typekit.net/af/a214a0/00000000000000007735faed/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("woff"), url("https://use.typekit.net/af/a214a0/00000000000000007735faed/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n8&v=3") format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-stretch: normal;
+}
+
+.tk-articulat-cf {
+  font-family: "articulat-cf", sans-serif;
+}
+
+@font-face {
+  font-family: "SoleSerifDisplayBold";
+  src: url('https://envisage.evolut.com.au/wp-content/plugins/Envisage_Website/webFonts/SoleSerifDisplayBold/font.woff2') format('woff2'), url('https://envisage.evolut.com.au/wp-content/plugins/Envisage_Website/webFonts/SoleSerifDisplayBold/font.woff') format('woff');
+}
+
+/* SET VARIABLES */
+:root {
+  --primary-brand-color: #063235;
+  --secondary-brand-color: #CCE1E1;
+  --secondary-blue-color: #E1EFEF;
+}
+
+/* Page Layout */
+body {
+  color: #6f6e6e;
+  background: var(--secondary-blue-color);
+  /*font-weight: unset; */
+}
+
+#container {
+  background: var(--secondary-blue-color);
+  border: none;
+}
+
+#pagecontent {
+  background-color: var(--secondary-blue-color);
+}
+
+.labelrc {
+  background-color: var(--secondary-blue-color);
+  /*font-weight: unset;*/
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding: 10px 10px;
+}
+
+.rich-text-field-label>p,
+.rich-text-field-label>p a:link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.data {
+  background-color: var(--secondary-blue-color);
+  font-weight: unset;
+}
+
+#questiontable tr,
+#questiontable td {
+  /*border-spacing: 0px;*/
+  /* border-color: #cccccc !important;*/
+  border: none;
+}
+
+td.header.toolbar {
+  background: var(--secondary-blue-color);
+  font-weight: 700;
+  font-size: 24px !important;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+#surveyinstructions-reveal {
+  display: none;
+}
+
+/* SURVEY TITLE */
+#surveytitle {
+  font-family: "SoleSerifDisplayBold", serif !important;
+  color: var(--primary-brand-color);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -0.01em;
+}
+
+/* BODY FONT */
+body * {
+  font-family: "articulat-cf", sans-serif !important;
+  color: var(--primary-brand-color);
+}
+
+a:link {
+  color: var(--primary-brand-color);
+}
+
+/* HIDE ELEMENTS */
+
+/* "reset" button below radios */
+.resetLinkParent {
+  display: none;
+}
+
+/*Text resizer*/
+
+#changeFont {
+  visibility: hidden;
+}
+
+/* Required field indicator */
+.requiredlabel {
+  display: none;
+}
+
+/* Footer */
+#footer {
+  visibility: hidden;
+}
+
+/* UPDATE BUTTONS */
+
+div.enhancedchoice label {
+  display: flex;
+  background: var(--secondary-brand-color);
+  border-radius: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.ec {
+  color: var(--primary-brand-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+div.enhancedchoice label.hover:hover,
+div.enhancedchoice label.hover.selectedradio {
+  background-color: var(--primary-brand-color) !important;
+  color: #ffffff !important;
+  border: none;
+}
+
+.hover.selectedradio .ec,
+.hover:hover .ec {
+  color: #ffffff !important;
+}

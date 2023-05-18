@@ -163,13 +163,41 @@ div.enhancedchoice label {
 }
 
 div.enhancedchoice label.hover:hover,
-div.enhancedchoice label.hover.selectedradio {
+div.enhancedchoice label.hover.selectedradio,
+div.enhancedchoice label.hover.selectedchkbox {
   background-color: var(--primary-brand-color) !important;
   color: #ffffff !important;
   border: none;
 }
 
 .hover.selectedradio .ec,
+.hover.selectedchkbox .ec,
 .hover:hover .ec {
   color: #ffffff !important;
+}
+
+div.enhancedchoice label.unselectedchkbox,
+div.enhancedchoice label.selectedchkbox {
+  justify-content: flex-start;
+}
+
+/* Next and previous buttons */
+
+.jqbutton,
+.jqbutton span {
+  background-color: var(--primary-brand-color) !important;
+  color: #ffffff;
+  border-radius: 50px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+button:focus,
+button:hover {
+  outline: none;
 }

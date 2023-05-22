@@ -217,12 +217,12 @@ button:hover {
 }
 
 select.x-form-text {
-  min-width: 85%;
+  min-width: 100%;
   max-width: 100%;
   border: none;
 }
 
 .x-form-text {
-  min-width: 85%;
+  min-width: 100%;
   border: none;
 }

@@ -23,6 +23,7 @@ ExternalModules.DE.RUB.JSInjectorExternalModule.afterRender(function () {
   progressText.style.position = 'absolute';
   progressText.style.width = '100%';
   progressText.style.height = '20px';
+  progressText.style.lineHeight = '20px';
   progressText.style.textAlign = 'center';
   progressText.style.fontWeight = 'bold';
   progressText.style.fontFamily = '"articulat-cf", sans-serif';

@@ -231,3 +231,21 @@ select.x-form-text {
   border: none;
   font-size: 16px;
 }
+
+.info-box {
+  background-color: #CCE1E1;
+  border-radius: 15px;
+  padding: 20px 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #666;
+  margin-bottom: auto;
+  z-index: 1;
+}
+
+.info-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}

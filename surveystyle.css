@@ -249,3 +249,26 @@ select.x-form-text {
   font-size: 20px;
   line-height: 30px;
 }
+
+/* Sliders */
+.ui-slider .ui-slider-handle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+div.slider .ui-state-default {
+  border: none;
+  background-color: var(--primary-brand-color);
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  top: -0.5em;
+  margin-left: -0.6em;
+}
+
+form#form input[type="text"].sldrnum {
+  color: var(--primary-brand-color);
+  font-size: 12px;
+  text-align: center;
+}

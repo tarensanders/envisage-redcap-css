@@ -136,6 +136,10 @@ a:link {
   display: none;
 }
 
+.expandLink {
+  display: none;
+}
+
 /*Text resizer*/
 
 #changeFont {
@@ -271,4 +275,8 @@ form#form input[type="text"].sldrnum {
   color: var(--primary-brand-color);
   font-size: 12px;
   text-align: center;
+}
+
+#form {
+  border-top: none;
 }
